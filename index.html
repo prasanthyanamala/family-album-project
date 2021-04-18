@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            kalisiunte kaladhu sukham </title>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="banner">
+            <img src="image/Daco_738001.png" class="logo">
+         <div id="text">
+         <h1>FAMILY ALBUM</h1>
+         <P>MEET  EVERY  PERSON VIRTUALLY</P>
+         </div>
+         <div class="banner-btn">
+          <a href="#"><span></span>PHOTOS</a>
+          <a href="#"><span></span>VEDIOS </a>
+          <a href="#"><span></span>DRIVE LINKS </a>
+         </div>
+         </section>
+         <div id="sideNav">
+             <nav>
+                 <Ul>
+                     <li><a href="#">HOME<a></li>
+                     <li><a href="#">FUNCTIONS<a></li>
+                     <li><a href="#">GATHERINGS<a></li>
+                     <li><a href="#">FESTIVALS<a></li>
+                     <li><a href="#">TOUR<a></li>   
+                 </Ul>
+             </nav>
+         </div>
+<div id="menuBtn">
+<img src="image/20210413_064257.png" id="menu">
+</div>
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+           sideNav.style.right = "0";
+          }
+           else{  
+             sideNav.style.right = "-250px";
+            
+           }
+    }
+  </script>
+</body>
+</html>
